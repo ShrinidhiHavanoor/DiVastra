@@ -1,0 +1,24 @@
+import HeroSection from "./components/HeroSection/HeroSection";
+import Navigation from "./components/Navigation/Navigation";
+import Category from "./components/Sections/Categories/Category";
+import NewArrivals from "./components/Sections/NewArrivals";
+import content from "./data/content";
+
+function Shop() {
+  return (
+    <>
+      <Navigation />
+      <HeroSection />
+      <NewArrivals />
+      {content?.categories &&
+        content?.categories?.map((item, index) => (
+          <Category key={item?.title+index}
+            title={content?.categories[index]?.title}
+            data={content?.categories[index]?.data}
+          />
+        ))}
+    </>
+  );
+}
+
+export default Shop;
