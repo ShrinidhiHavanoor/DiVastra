@@ -1,13 +1,16 @@
-import '@fontsource/cinzel';
-import '@fontsource/marcellus';
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import './index.css';
-import Shop from './Shop.jsx';
-import 'react-multi-carousel/lib/styles.css';
-
-createRoot(document.getElementById('root')).render(
+import "@fontsource/cinzel";
+import "@fontsource/marcellus";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import Shop from "./Shop.jsx";
+import "react-multi-carousel/lib/styles.css";
+import { RouterProvider, Routes } from "react-router-dom";
+import { router } from "../routes.jsx";
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Shop />
-  </StrictMode>,
-)
+    <RouterProvider router={router}>
+      <Shop />
+    </RouterProvider>
+  </StrictMode>
+);

@@ -1,3 +1,6 @@
+import FbIcon from '../Common/FbIcon'
+import InstaIcon from '../Common/InstaIcon'
+
 const Footer = ({ content }) => {
   return (
     <div className="bg-black text-white ">
@@ -21,7 +24,10 @@ const Footer = ({ content }) => {
             );
           })}
       </div>
-
+        <div className="flex gap-2 justify-center py-4">
+          <a href="/fb">  <FbIcon/> </a>
+          <a href="/insconteta"> <InstaIcon/></a>
+        </div>
       <p className="text-sm text-white text-center content-center">
         {content?.copyright}
       </p>

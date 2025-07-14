@@ -19,7 +19,7 @@ function Shop() {
             data={content?.categories[index]?.data}
           />
         ))}
-      <Footer content={content?.footer} />
+      <Footer  content={content?.footer} />
     </>
   );
 }

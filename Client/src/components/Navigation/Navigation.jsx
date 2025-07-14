@@ -1,3 +1,4 @@
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/Logos/Nav2.png";
 import AccountIcon from "../Common/AccountIcon";
 import { CartIcon } from "../Common/CartIcon";
@@ -20,16 +21,16 @@ function Navigation() {
       <div className="ml-44 mt-1 mr-auto ">
         <ul className="gap-14 flex items-center text-lg">
           <li className="text-DoppColor hover:text-Dcolor">
-            <a href="/">Shop</a>
+            <NavLink to="/">Shop</NavLink>
           </li>
           <li className="text-DoppColor hover:text-Dcolor">
-            <a href="/mens">Men</a>
+            <NavLink to="/mens">Men</NavLink>
           </li>
           <li className="text-DoppColor hover:text-Dcolor">
-            <a href="/womens">Women</a>
+            <NavLink to="/womens">Women</NavLink>
           </li>
           <li className="text-DoppColor hover:text-Dcolor">
-            <a href="/kids">Kids</a>
+            <NavLink to="/kids">Kids</NavLink>
           </li>
         </ul>
       </div>
@@ -60,7 +61,9 @@ function Navigation() {
               <AccountIcon />
             </li>
             <li>
-              <CartIcon />
+              <Link to="/cart-items">
+                <CartIcon />
+              </Link>
             </li>
           </ul>
         </div>
