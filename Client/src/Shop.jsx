@@ -7,8 +7,7 @@ import content from "./data/content";
 
 function Shop() {
   return (
-    <>
-      <Navigation />
+  <>
       <HeroSection />
       <NewArrivals />
       {content?.categories &&
@@ -19,7 +18,7 @@ function Shop() {
             data={content?.categories[index]?.data}
           />
         ))}
-      <Footer  content={content?.footer} />
+      <Footer content={content?.footer} />
     </>
   );
 }

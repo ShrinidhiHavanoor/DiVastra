@@ -21,16 +21,44 @@ function Navigation() {
       <div className="ml-44 mt-1 mr-auto ">
         <ul className="gap-14 flex items-center text-lg">
           <li className="text-DoppColor hover:text-Dcolor">
-            <NavLink to="/">Shop</NavLink>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "text-Dcolor font-semibold" : "text-DoppColor"
+              }
+            >
+              Shop
+            </NavLink>
+          </li>
+          <li className="text-DoppColor hover:text-Dcolor ">
+            <NavLink
+              to="/mens"
+              className={({ isActive }) =>
+                isActive ? "text-Dcolor font-semibold" : "text-DoppColor"
+              }
+            >
+              Men
+            </NavLink>
           </li>
           <li className="text-DoppColor hover:text-Dcolor">
-            <NavLink to="/mens">Men</NavLink>
+            <NavLink
+              to="/womens"
+              className={({ isActive }) =>
+                isActive ? "text-Dcolor font-semibold" : "text-DoppColor"
+              }
+            >
+              Women
+            </NavLink>
           </li>
           <li className="text-DoppColor hover:text-Dcolor">
-            <NavLink to="/womens">Women</NavLink>
-          </li>
-          <li className="text-DoppColor hover:text-Dcolor">
-            <NavLink to="/kids">Kids</NavLink>
+            <NavLink
+              to="/kids"
+              className={({ isActive }) =>
+                isActive ? "text-Dcolor font-semibold" : "text-DoppColor"
+              }
+            >
+              Kids
+            </NavLink>
           </li>
         </ul>
       </div>

@@ -26,7 +26,7 @@ const Card = ({
                 <ArrowIcon className="transition-transform group-hover:translate-x-1 duration-200" />
               </p>
             </div>
-          )}
+          )} 
         </div>
       </div>
     </div>

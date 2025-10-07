@@ -7,10 +7,10 @@ import Shop from "./Shop.jsx";
 import "react-multi-carousel/lib/styles.css";
 import { RouterProvider, Routes } from "react-router-dom";
 import { router } from "../routes.jsx";
+import Navigation from "./components/Navigation/Navigation.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router}>
-      <Shop />
     </RouterProvider>
   </StrictMode>
 );
