@@ -1,36 +1,21 @@
-import ArrowIcon from "../Common/ArrowIcon";
+import React from 'react'
+import ArrowIcon from '../common/ArrowIcon'
 
-const Card = ({
-  imagePath,
-  title,
-  description,
-  height,
-  width,
-}) => {
+
+const Card = ({imagePath,title,description,actionArrow,height,width}) => {
   return (
-    <div className="flex p-6 flex-col">
-      <img
-        style={{ width: width || "240px", height: height || "260px" }}
-        className="object-cover border ml-5 rounded-lg transition-transform duration-300 cursor-pointer hover:scale-105"
-        src={imagePath}
-        alt={title}
-      />
-      <div className="flex justify-between items-center mt-3 px-6">
-        <div className="flex flex-col">
-          <p className="text-[16px] font-medium">{title}</p>
-
-          {description && (
-            <div className="flex items-center gap-1 text-sm text-gray-600 hover:text-black transition-all cursor-pointer mt-1">
-              <p className="text-sm text-gray-600 hover:text-black transition-all mt-2 flex items-center gap-1 group">
-                Explore Now!
-                <ArrowIcon className="transition-transform group-hover:translate-x-1 duration-200" />
-              </p>
-            </div>
-          )} 
+    <div className='flex  flex-col p-6'>
+        <img className={`h-[${height? height:'220px'}] max-h-[${height? height:'220px'}] w-[${width? width:'200px'}] max-w-[${width? width:'220px'}]
+         border rounded-lg hover:scale-105 cursor-pointer`} width={width??"200px"} height={height?? "220px"} src={imagePath} alt='Jeans'/>
+         <div className='flex justify-between items-center'>
+          <div className='flex flex-col'>
+          <p className='text-[16px] p-1'>{title}</p>
+          {description && <p className='text-[12px] px-1 text-gray-600'>{description}</p>}
+          </div>
+          {actionArrow && <span className='cursor-pointer pr-2 items-center'><ArrowIcon /></span>}
         </div>
-      </div>
     </div>
-  );
-};
+  )
+}
 
-export default Card;
+export default Card

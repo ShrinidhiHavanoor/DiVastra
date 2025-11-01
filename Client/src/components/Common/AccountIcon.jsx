@@ -1,28 +1,11 @@
-import React from "react";
+import React from 'react'
 
-const AccountIcon = () => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-5 h-5 text-gray-800 hover:fill-black transition-colors"
-      viewBox="0 0 512 512"
-      fill="none"
-    >
-      <path
-        d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z"
-        stroke="currentColor"
-        strokeWidth="32"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z"
-        stroke="currentColor"
-        strokeWidth="32"
-        strokeMiterlimit="10"
-      />
-    </svg>
-  );
-};
+export const AccountIcon = () => {
+    return (
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" className='hover:fill-black' xmlns="http://www.w3.org/2000/svg">
+            <rect width="44" height="44" rx="8" fill="white" />
+            <path d="M22 23.6666C24.3012 23.6666 26.1667 21.8011 26.1667 19.4999C26.1667 17.1987 24.3012 15.3333 22 15.3333C19.6988 15.3333 17.8333 17.1987 17.8333 19.4999C17.8333 21.8011 19.6988 23.6666 22 23.6666ZM22 23.6666C18.3181 23.6666 15.3333 25.9052 15.3333 28.6666M22 23.6666C25.6819 23.6666 28.6667 25.9052 28.6667 28.6666" stroke="#2A2F2F" strokeWidth="1.5" strokeLinecap="round" />
+        </svg>
 
-export default AccountIcon;
+    )
+}
