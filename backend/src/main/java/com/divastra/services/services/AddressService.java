@@ -1,15 +1,14 @@
-package com.thecodereveal.shopease.services;
+package com.divastra.services.services;
 
-import com.thecodereveal.shopease.auth.entities.User;
-import com.thecodereveal.shopease.dto.AddressRequest;
-import com.thecodereveal.shopease.entities.Address;
-import com.thecodereveal.shopease.repositories.AddressRepository;
+import com.divastra.services.auth.entities.User;
+import com.divastra.services.dto.AddressRequest;
+import com.divastra.services.entities.Address;
+import com.divastra.services.repositories.AddressRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 
 import java.security.Principal;
-import java.util.List;
 import java.util.UUID;
 
 @Service

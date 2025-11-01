@@ -1,6 +1,6 @@
-package com.thecodereveal.shopease.repositories;
+package com.divastra.services.repositories;
 
-import com.thecodereveal.shopease.entities.Address;
+import com.divastra.services.entities.Address;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

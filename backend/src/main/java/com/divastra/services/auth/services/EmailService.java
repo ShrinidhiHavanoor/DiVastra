@@ -1,6 +1,6 @@
-package com.thecodereveal.shopease.auth.services;
+package com.divastra.services.auth.services;
 
-import com.thecodereveal.shopease.auth.entities.User;
+import com.divastra.services.auth.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.SimpleMailMessage;

@@ -1,8 +1,8 @@
-package com.thecodereveal.shopease.auth.controller;
+package com.divastra.services.auth.controller;
 
-import com.thecodereveal.shopease.auth.config.JWTTokenHelper;
-import com.thecodereveal.shopease.auth.entities.User;
-import com.thecodereveal.shopease.auth.services.OAuth2Service;
+import com.divastra.services.auth.config.JWTTokenHelper;
+import com.divastra.services.auth.entities.User;
+import com.divastra.services.auth.services.OAuth2Service;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

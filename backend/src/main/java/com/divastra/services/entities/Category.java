@@ -1,4 +1,4 @@
-package com.thecodereveal.shopease.entities;
+package com.divastra.services.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

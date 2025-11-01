@@ -1,8 +1,8 @@
-package com.thecodereveal.shopease.controllers;
+package com.divastra.services.controllers;
 
-import com.thecodereveal.shopease.dto.CategoryDto;
-import com.thecodereveal.shopease.entities.Category;
-import com.thecodereveal.shopease.services.CategoryService;
+import com.divastra.services.dto.CategoryDto;
+import com.divastra.services.entities.Category;
+import com.divastra.services.services.CategoryService;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

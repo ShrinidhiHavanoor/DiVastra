@@ -1,4 +1,4 @@
-package com.thecodereveal.shopease.config;
+package com.divastra.services.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;

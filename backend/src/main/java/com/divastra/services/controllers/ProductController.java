@@ -1,8 +1,8 @@
-package com.thecodereveal.shopease.controllers;
+package com.divastra.services.controllers;
 
-import com.thecodereveal.shopease.dto.ProductDto;
-import com.thecodereveal.shopease.entities.Product;
-import com.thecodereveal.shopease.services.ProductService;
+import com.divastra.services.dto.ProductDto;
+import com.divastra.services.entities.Product;
+import com.divastra.services.services.ProductService;
 import jakarta.servlet.http.HttpServletResponse;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;

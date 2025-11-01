@@ -1,4 +1,4 @@
-package com.thecodereveal.shopease.auth.exceptions;
+package com.divastra.services.auth.exceptions;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

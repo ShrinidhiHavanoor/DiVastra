@@ -1,7 +1,7 @@
-package com.thecodereveal.shopease.auth.controller;
+package com.divastra.services.auth.controller;
 
-import com.thecodereveal.shopease.auth.dto.UserDetailsDto;
-import com.thecodereveal.shopease.auth.entities.User;
+import com.divastra.services.auth.dto.UserDetailsDto;
+import com.divastra.services.auth.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,12 +1,12 @@
-package com.thecodereveal.shopease.auth.controller;
+package com.divastra.services.auth.controller;
 
-import com.thecodereveal.shopease.auth.config.JWTTokenHelper;
-import com.thecodereveal.shopease.auth.dto.LoginRequest;
-import com.thecodereveal.shopease.auth.dto.RegistrationRequest;
-import com.thecodereveal.shopease.auth.dto.RegistrationResponse;
-import com.thecodereveal.shopease.auth.dto.UserToken;
-import com.thecodereveal.shopease.auth.entities.User;
-import com.thecodereveal.shopease.auth.services.RegistrationService;
+import com.divastra.services.auth.config.JWTTokenHelper;
+import com.divastra.services.auth.dto.LoginRequest;
+import com.divastra.services.auth.dto.RegistrationRequest;
+import com.divastra.services.auth.dto.RegistrationResponse;
+import com.divastra.services.auth.dto.UserToken;
+import com.divastra.services.auth.entities.User;
+import com.divastra.services.auth.services.RegistrationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

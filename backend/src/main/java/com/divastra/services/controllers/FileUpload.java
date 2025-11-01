@@ -1,6 +1,6 @@
-package com.thecodereveal.shopease.controllers;
+package com.divastra.services.controllers;
 
-import com.thecodereveal.shopease.services.FileUploadService;
+import com.divastra.services.services.FileUploadService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,11 +1,11 @@
-package com.thecodereveal.shopease.services;
+package com.divastra.services.services;
 
-import com.thecodereveal.shopease.dto.ProductDto;
-import com.thecodereveal.shopease.entities.*;
-import com.thecodereveal.shopease.exceptions.ResourceNotFoundEx;
-import com.thecodereveal.shopease.mapper.ProductMapper;
-import com.thecodereveal.shopease.repositories.ProductRepository;
-import com.thecodereveal.shopease.specification.ProductSpecification;
+import com.divastra.services.dto.ProductDto;
+import com.divastra.services.entities.Product;
+import com.divastra.services.exceptions.ResourceNotFoundEx;
+import com.divastra.services.mapper.ProductMapper;
+import com.divastra.services.repositories.ProductRepository;
+import com.divastra.services.specification.ProductSpecification;
 import org.apache.coyote.BadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;

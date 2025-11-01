@@ -1,7 +1,7 @@
-package com.thecodereveal.shopease.entities;
+package com.divastra.services.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.thecodereveal.shopease.auth.entities.User;
+import com.divastra.services.auth.entities.User;
 import jakarta.persistence.*;
 import lombok.*;
 

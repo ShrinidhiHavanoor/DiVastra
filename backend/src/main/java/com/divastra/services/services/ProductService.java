@@ -1,7 +1,7 @@
-package com.thecodereveal.shopease.services;
+package com.divastra.services.services;
 
-import com.thecodereveal.shopease.dto.ProductDto;
-import com.thecodereveal.shopease.entities.Product;
+import com.divastra.services.dto.ProductDto;
+import com.divastra.services.entities.Product;
 
 import java.util.List;
 import java.util.UUID;

@@ -1,13 +1,10 @@
-package com.thecodereveal.shopease.controllers;
+package com.divastra.services.controllers;
 
 import com.stripe.model.PaymentIntent;
-import com.thecodereveal.shopease.auth.dto.OrderResponse;
-import com.thecodereveal.shopease.dto.OrderDetails;
-import com.thecodereveal.shopease.dto.OrderItemDetail;
-import com.thecodereveal.shopease.dto.OrderRequest;
-import com.thecodereveal.shopease.entities.Order;
-import com.thecodereveal.shopease.services.OrderService;
-import com.thecodereveal.shopease.services.PaymentIntentService;
+import com.divastra.services.auth.dto.OrderResponse;
+import com.divastra.services.dto.OrderDetails;
+import com.divastra.services.dto.OrderRequest;
+import com.divastra.services.services.OrderService;
 import org.apache.coyote.BadRequestException;
 import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +15,6 @@ import org.springframework.web.bind.annotation.*;
 import java.security.Principal;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 import java.util.UUID;
 
 @RestController

@@ -1,4 +1,4 @@
-package com.thecodereveal.shopease.dto;
+package com.divastra.services.dto;
 
 import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;

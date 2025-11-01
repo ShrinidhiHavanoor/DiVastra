@@ -1,4 +1,4 @@
-package com.thecodereveal.shopease.dto;
+package com.divastra.services.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,6 +1,6 @@
-package com.thecodereveal.shopease.specification;
+package com.divastra.services.specification;
 
-import com.thecodereveal.shopease.entities.Product;
+import com.divastra.services.entities.Product;
 import org.springframework.data.jpa.domain.Specification;
 
 import java.util.UUID;

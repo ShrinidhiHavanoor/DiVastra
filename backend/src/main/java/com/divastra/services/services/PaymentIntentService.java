@@ -1,15 +1,14 @@
-package com.thecodereveal.shopease.services;
+package com.divastra.services.services;
 
 import com.stripe.exception.StripeException;
 import com.stripe.model.PaymentIntent;
 import com.stripe.param.PaymentIntentCreateParams;
-import com.thecodereveal.shopease.auth.entities.User;
-import com.thecodereveal.shopease.entities.Order;
+import com.divastra.services.auth.entities.User;
+import com.divastra.services.entities.Order;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 @Component
 public class PaymentIntentService {

@@ -1,12 +1,11 @@
-package com.thecodereveal.shopease.dto;
+package com.divastra.services.dto;
 
-import com.thecodereveal.shopease.entities.Product;
+import com.divastra.services.entities.Product;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.rmi.server.UID;
 import java.util.UUID;
 
 @Data
